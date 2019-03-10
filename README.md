@@ -2,7 +2,7 @@
 Smart switch to control almost anything using Alexa with voice commands. 
 
 ## Hardware used
-1. ESP-8266 Development Board (NodeMCU)
+1. ESP-8266 (NodeMCU) Development Board
 2. 4-Channel 5V Relay Board
 3. Mini Breadboard
 4. Dupont wires
@@ -14,9 +14,9 @@ Smart switch to control almost anything using Alexa with voice commands.
 ## Instructions
 
 ### Upload arduino sketch to NodeMCU
-1. Download and install WebSocketsClient.h and ArduinoJson.h libraries
-   WebSocketsClient.h :https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-   ArduinoJson.h      :https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+1. Download and install WebSocketsClient.h and ArduinoJson.h libraries   
+   WebSocketsClient.h   : https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries                                         
+   ArduinoJson.h        : https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries   
 2. Open Arduino IDE and select Board Manager
    Tools > Board > Boards Manager. Install ESP8266
 3. Select board NodeMCU 1.0(ESP-12E Module)
